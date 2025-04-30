@@ -1,0 +1,7 @@
+.form-page-bg {
+  background: linear-gradient(to bottom right, #f0f4ff, #dff6e6);
+  min-height: 90vh;
+}
+.custom-bg {
+  background-color: #198754 !important; /* Bootstrap success green */
+}

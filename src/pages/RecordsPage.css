@@ -1,0 +1,41 @@
+/* Custom styles for the page */
+.custom-header {
+  background-color: #198754; /* Bootstrap success green */
+  color: white;
+}
+
+.user-table tbody tr {
+  background-color: #e9f7ef; /* Light green shade */
+}
+
+.form-page-bg {
+  background: linear-gradient(to bottom right, #f0f4ff, #dff6e6);
+  min-height: 90vh;
+  margin-left: 10%;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-table td,
+.user-table th {
+  padding: 0.75rem;
+}
+
+.user-table th {
+  font-size: 1.1rem;
+}
+
+.user-table tbody td {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .user-table td,
+  .user-table th {
+    font-size: 0.9rem;
+  }
+}
